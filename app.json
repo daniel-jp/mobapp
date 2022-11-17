@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "mobapp",
+    "slug": "mobapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "../mobapp/assets/icon.png/",
+    "splash": {
+      "image": "../mobapp/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121214"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "../mobapp/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "../mobapp/assets/favicon.png"
+    }
+  }
+}
